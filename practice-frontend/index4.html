@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <h1>Form Tags</h1>
+      
+        <fieldset>
+            <legend><strong>Registration Form</strong></legend>
+            <form action="server.js" method="POST">
+                <p>
+                    <label for="username"><strong>Username :</strong> </label>
+                    <input type="text" name="username" autofocus placeholder="Enter your username" required>
+                    <label for="email"><strong>Email :</strong> </label>
+                    <input type="text" name="email" placeholder="Enter your email" required>
+                    <label for="password"><strong>Password :</strong></label>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <button>Submit</button>
+                </p>
+                <legend>CheckBox</legend>
+                <p>
+                    <input type="checkbox" name="javascript" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" name="python" id="python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="java" id="java">
+                    <label for="java">Java</label>
+
+                </p>
+                <p>
+                    <input type="radio" name="morningbatch" id="morningbatch" value="morning">
+                    <label for="morningbatch">Morning Batch</label>
+                    <input type="radio" name="eveningbatch" id="eveningbatch" value="evening">
+                    <label for="eveningbatch">Evening Batch</label>
+                </p>
+
+                <p>
+                    <select name="" id="">
+                        <optgroup label="India">
+                            <option value="">Select City</option>
+                            <option value="">Ahmedabad</option>
+                            <option value="">Pune</option>
+                            <option value="">Jaipur</option>
+                            <option value="">Hyderabad</option>
+                            <option value="">Chandigarh</option>
+                            <option value="">Lucknow</option>
+                            <option value="">Patna</option>
+                            <option value="">Bhopal</option>
+                            <option value="">Indore</option>
+                            <option value="">Nagpur</option>
+                            <option value="">Surat</option>
+                            <option value="">Vadodara</option>
+                            <option value="">Agra</option>
+                            <option value="">Kanpur</option>
+                            <option value="">Varanasi</option>
+                            <option value="">Guwahati</option>
+                            <option value="">Ranchi</option>
+                            <option value="">Bhubaneswar</option>
+                            <option value="">Coimbatore</option>
+                            <option value="">Mysore</option>
+                            <option value="">Visakhapatnam</option>
+                            <option value="">Aurangabad</option>
+                            <option value="">Nashik</option>
+                            <option value="">Delhi</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Chennai</option>
+                            <option value="">Kolkata</option>
+                            <option value="">Bangalore</option>
+                        </optgroup>
+                        <optgroup label="USA">
+                            <option value="">Los Angeles</option>
+                            <option value="">San Francisco</option>
+                            <option value="">Houston</option>
+                            <option value="">Dallas</option>
+                            <option value="">Seattle</option>
+                            <option value="">Miami</option>
+                            <option value="">NewYork</option>
+                            <option value="">Washington DC</option>
+                        </optgroup>
+                    </select>
+
+                    <p>
+                        <label for="date"><strong>Date :</strong></label>
+                        <input type="date" name="date" id="date">
+                        <label for="time"><strong>Time :</strong></label>
+                        <input type="time" name="time" id="time">
+                        <label for="number"><strong>Number :</strong></label>
+                        <input type="number" name="number" id="number" placeholder="Enter your number" required>
+                        <label for="color"><strong>Color :</strong></label>
+                        <input type="color" name="color" id="color">
+                        <label for="file"><strong>File :</strong></label>
+                        <input type="file" name="file" id="file">
+
+                    </p>
+                    <p>
+                        <label for="language"><strong>Programming Language :</strong></label>
+                        <datalist>
+                            <option value="JavaScript"></option>
+                            <option value="Python"></option>
+                            <option value="Java"></option>
+                            <option value="C++"></option>
+                            <option value="C#"></option>
+                            <option value="Ruby"></option>
+                            <option value="PHP"></option>
+                            <option value="Swift"></option>
+                            <option value="Go"></option>
+                            <option value="Kotlin"></option>
+                            <option value="Rust"></option>
+                            <option value="TypeScript"></option>
+                            <option value="Scala"></option>
+                            <option value="Perl"></option>
+                            <option value="Lua"></option>
+                            <option value="Haskell"></option>
+                            <option value="Elixir"></option>
+                            <option value="Dart"></option>
+                            <option value="R"></option>
+                            <option value="MATLAB"></option>
+                            <option value="Julia"></option>
+                            <option value="Shell"></option>
+                            <option value="SQL"></option>
+                            <option value="HTML"></option>
+                            <option value="CSS"></option>
+                            <option value="Sass"></option>
+                            <option value="Less"></option>
+                            <option value="GraphQL"></option>
+                            <option value="JSON"></option>
+                            <option value="XML"></option>
+                            <option value="YAML"></option>
+                            <option value="Markdown"></option>
+                            <option value="Bash"></option>  
+                        </datalist>
+                    </p>
+                </p>
+            </form>
+        </fieldset>
+</body>
+</html>
